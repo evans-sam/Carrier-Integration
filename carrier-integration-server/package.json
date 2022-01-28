@@ -1,0 +1,24 @@
+{
+  "name": "carrier-integration-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "npm install && node seed.js && nodemon server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.2",
+    "http-status-codes": "^2.2.0",
+    "jsonfile": "^6.1.0",
+    "node-fetch": "^3.2.0",
+    "nodemon": "^2.0.15",
+    "path": "^0.12.7",
+    "url": "^0.11.0",
+    "uuid": "^8.3.2"
+  },
+  "author": "",
+  "license": "ISC"
+}
