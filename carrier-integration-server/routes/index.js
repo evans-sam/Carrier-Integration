@@ -3,7 +3,7 @@ import { getAllCarriers, validate } from '../controllers/carrier.js';
 
 const carrierRouter = Router();
 carrierRouter.get('/', getAllCarriers);
-carrierRouter.post('/validate/', validate)
+carrierRouter.post('/validate/', validate);
 
 const baseRouter = Router();
 baseRouter.use('/carriers', carrierRouter);

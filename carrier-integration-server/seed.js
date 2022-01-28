@@ -10,7 +10,7 @@ await Entity.saveDB(db);
 const carrier = await Carrier.create({
   name: "Progressive",
   url: "https://www.progressive.com/"
-})
+});
 
 await CarrierRequest.create(carrier, {
   url: "https://api.progressive.com/onlineaccount/v1/accesstoken",
@@ -35,4 +35,4 @@ await CarrierRequest.create(carrier, {
   },
   usernameTag: "userName",
   passwordTag: "password",
-})
+});
